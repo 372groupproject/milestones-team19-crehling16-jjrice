@@ -8,4 +8,4 @@ milestones-team19-crehling16-jjrice created by GitHub Classroom
   Prints "hello world".
 
 --octagon.txt
-  Prints a series of nested octagons. Demonstrates drawing, functions, 'while' loops and variables in Logo.
+  Draws a series of nested octagons. Demonstrates drawing, functions, 'while' loops and variables in Logo.
