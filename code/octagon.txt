@@ -1,0 +1,3 @@
+to octagon :n
+  while [ :n > 0 ] [ repeat 8 [ fd :n rt 45 ] make "n :n / 2 ]
+end
