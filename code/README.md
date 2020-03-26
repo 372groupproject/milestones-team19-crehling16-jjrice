@@ -8,4 +8,4 @@ milestones-team19-crehling16-jjrice created by GitHub Classroom
   Prints "hello world".
 
 --octagon.txt
-  Prints a series of concentric octagons. Demonstrates functions, 'while' loops and functions in Logo.
+  Prints a series of concentric octagons. Demonstrates drawing, functions, 'while' loops and variables in Logo.
