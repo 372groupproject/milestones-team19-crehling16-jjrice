@@ -1,0 +1,27 @@
+B. Sources
+
+1. Book References
+	Books listed by the LOGO Foundation:
+		- Mindstorms
+		- LifeLong Kindergarten
+		...
+
+2. Web-site Reference that discusses LOGO in depth:
+	- https://www.tutorialspoint.com/logo/logo_introduction.htm
+
+3. Language reference manual:
+	- https://people.eecs.berkeley.edu/~bh/v2ch14/manual.html
+	- https://www.calormen.com/jslogo/language.html
+	- http://abz.inf.ethz.ch/wp-content/uploads/unterrichtsmaterialien/primarschulen/logo_heft_en.pdf
+
+
+4. Community for LOGO:
+	LOGO Foundation
+		- https://el.media.mit.edu/logo-foundation/
+
+5. Major Project Coded in LOGO:
+	- Turtle Graphics
+
+6. Compiler/interpreter for the language:
+	Web Based Interpreter:
+		- https://www.calormen.com/jslogo/
