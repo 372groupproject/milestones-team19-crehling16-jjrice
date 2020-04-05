@@ -51,8 +51,10 @@ The file p2_stop.lg displays the command STOP which ends the running of a proced
 The file p2_output.lg displays the command OUTPUT which outputs the value to the context in which it was invoked. The file holds the procedure OUTPUTX which uses the same code as p2_stop.lg except it replaces the command STOP with the command OUTPUT x, which returns the value in x. To view the output from the procedure run the command PRINT OUTPUTX, which will print the value of x that was returned by the procedure OUTPUTX.
 
 ### p2_catch.lg ###
+The file p2_catch.lg displays the command CATCH which takes two parameters as input. The first parameter is the condition to be caught, in LOGO this is either a word, a boolean expression that returns true, or an error condition. The second parameter is an instruction that runs and if the output matches the first parameter, then CATCH command returns contorl to the command following the CATCH command, if it doesn't catch, then LOGO searches for another CATCH to be caught. The file holds the procedure CATCHWORD that contains one CATCH command that checks if the instruction, a print statement that prints the string "caught", given to the command prints the string "caught" and exits.
 
 ### p2_throw.lg ###
+The file p2_throw.lg displays the command THROW which...
 
 ### p2_error.lg ###
 
