@@ -4,11 +4,11 @@ milestones-team19-crehling16-jjrice created by GitHub Classroom
 
 # MILESTONE 1 #
 
-`helloworld.txt
- ``Prints "hello world".
+### helloworld.txt ###
+Prints "hello world".
 
-`octagon.txt
- ``Draws a series of nested octagons. Demonstrates drawing, functions, 'while' loops and variables in Logo.
+### octagon.txt ###
+Draws a series of nested octagons. Demonstrates drawing, functions, 'while' loops and variables in Logo.
   
 # MILESTONE 2 #
   
