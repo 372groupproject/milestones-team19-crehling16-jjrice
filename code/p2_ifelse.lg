@@ -1,0 +1,4 @@
+TO PRINTFALSE
+MAKE "x 5
+print ifelse :x<0 ["x>0] ["x<0]
+end

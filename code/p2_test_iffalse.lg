@@ -1,0 +1,5 @@
+TO TESTFALSE
+MAKE "x 7
+TEST x>8
+IFFALSE [print "Test_Returned_False]
+end

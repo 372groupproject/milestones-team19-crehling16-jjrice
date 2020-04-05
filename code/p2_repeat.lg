@@ -1,0 +1,3 @@
+TO REPEATCHEER
+repeat 3 [print "Hip print "Hip print "Horray print "]
+end

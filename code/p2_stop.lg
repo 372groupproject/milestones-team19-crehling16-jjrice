@@ -1,0 +1,3 @@
+TO STOPFOREVER
+forever [MAKE "x REPCOUNT ifelse :x>10 [STOP] [print repcount]]
+end

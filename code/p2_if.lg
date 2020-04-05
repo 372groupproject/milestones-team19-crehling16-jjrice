@@ -1,0 +1,14 @@
+TO PRINTTRUE
+MAKE "x 5
+print if :x>0 ["TRUE]
+
+
+TO REPCOUNTLOOP
+repeat 4 [print repcount]
+
+
+TO REPEATCHEER
+repeat 3 [print "Hip print "Hip print "Horray print "]
+
+
+Make "x 5

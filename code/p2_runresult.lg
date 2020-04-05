@@ -1,0 +1,4 @@
+TO RESULT
+local "result
+make "result runresult [print "First print "Second print "Third]
+end

@@ -1,0 +1,5 @@
+TO TESTTRUE
+MAKE "x 7
+TEST x<8
+IFTRUE [print "Test_Returned_True]
+end
