@@ -54,9 +54,10 @@ The file p2_output.lg displays the command OUTPUT which outputs the value to the
 The file p2_catch.lg displays the command CATCH which takes two parameters as input. The first parameter is the condition to be caught, in LOGO this is either a word, a boolean expression that returns true, or an error condition. The second parameter is an instruction that runs and if the output matches the first parameter, then CATCH command returns contorl to the command following the CATCH command, if it doesn't catch, then LOGO searches for another CATCH to be caught. The file holds the procedure CATCHWORD that contains one CATCH command that checks if the instruction, a print statement that prints the string "caught", given to the command prints the string "caught" and exits.
 
 ### p2_throw.lg ###
-The file p2_throw.lg displays the command THROW which...
+The file p2_throw.lg holds the procedure THROWERROR which display the THROW command/ The procedure holds one line, the THROW command. When the file is loaded and the procedure is called, the THROW command is called and display what would happen if thrown.
 
 ### p2_error.lg ###
+The file p2_error.lg displays the command ERROR which outs a list describing the error that was caught, if no error is caught, the ERROR command will output an empty list. The file holds the procedure 2ERROR that contains a SUM command that does not do anything after the command is run. After the SUM command, the ERROR command is run and outputs a list of the command that just casued the error, in this case the SUM command. 
 
 ### p2_pause.lg ###
 
