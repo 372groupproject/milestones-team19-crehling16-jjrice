@@ -1,0 +1,4 @@
+TO DOUNTIL
+MAKE "summed 0
+DO.UNTIL [make "summed sum summed 1  print :summed] [summed>10]
+end 
