@@ -1,0 +1,3 @@
+TO CASETEST
+print case "w [ [[a s w] "true] [else "false]]
+end

@@ -1,0 +1,3 @@
+TO CONDTEST
+print COND [[else "Condition'_Output]]
+end

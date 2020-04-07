@@ -1,0 +1,3 @@
+TO FORLIST
+for [i 2 5 1.5] [print :i]
+end
