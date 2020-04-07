@@ -78,7 +78,7 @@ The file p2_goto_tag.lg displays the commands GOTO and TAG. The TAG command does
 The file p2_ignore.lg displays the command IGNORE which does nothing, it is used when an expression evaluted a side effect and its actual value is unimportant, for example, the output from a SUM command. The file contains the procedure IGNORE2 which conatins an IGNORE surrounded by print statements. The first print statment prints "Ignoring_Sum" and the second prints "After_Sum" and the ignore function calculates the SUM of 2 and 3 but does nothing with summed value.
 
 ### p2_'.lg ###
-The file p2_'.lg displays the command ` which outputs a list equal to its input but with certain substitutions. The file p2_'.lg contains the procedure SHOWLIST which uses the command SHOW to display what the command ` outputs. The commadn ` is given the list [print "foo] and outputs that list.
+The file p2_\`.lg displays the command ` which outputs a list equal to its input but with certain substitutions. The file p2_'.lg contains the procedure SHOWLIST which uses the command SHOW to display what the command ` outputs. The commadn ` is given the list [print "foo] and outputs that list.
 
 ### p2_for.lg ###
 
