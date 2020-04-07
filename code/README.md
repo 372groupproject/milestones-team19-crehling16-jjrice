@@ -81,6 +81,7 @@ The file p2_ignore.lg displays the command IGNORE which does nothing, it is used
 The file p2_\`.lg displays the command \` which outputs a list equal to its input but with certain substitutions. The file p2_\`.lg contains the procedure SHOWLIST which uses the command SHOW to display what the command \` outputs. The commadn \` is given the list [print "foo] and outputs that list.
 
 ### p2_for.lg ###
+The file p2_for.lg displays the command FOR which takes two parameters as input. The first parameter is a forontrol and the second is an instruction list. To read more about how LOGO for works visit https://people.eecs.berkeley.edu/~bh/v2ch14/manual.html. The file contains the procedure FORLIST that outputs the values 2, 3.5, and 5 when run.
 
 ### p2_dowhile.lg ###
 The file p2_dowhile.lg displays the command DO.WHILE which takes an instruction list and true/false expression as inputs. The command DO.WHILE repeatedly evalutes the inputs in the instruction list until the true/false expression evaluates to false. The file contains the procedure DOWHILE which increments a variable summed by 1 each time until the variable is a value greater than 10. The variables value is printed out to display that the DO.WHILE command ran and then stop after meeting its end condtion. The contorl flow command WHILE does the same thing except the first input into command WHILE is the true/false expression and then the instruction list.
@@ -89,5 +90,7 @@ The file p2_dowhile.lg displays the command DO.WHILE which takes an instruction 
 The file p2_dountil displays the command DO.UNTIL which takes an instruction list and true/false expression as inputs. The command DO.UNTIl repeatedly evalutes the inputs in the instruction list until the true/false expression evaluates to True. The file contains the procedure DOUNTIL which increments a variable summed by 1 each time while the variable is a value less than 10. The variables value is printed out to display that the DO.UNTIL command ran and then stop after meeting its end condtion. The contorl flow command UNTIL does the same thing except the first input into command UNTIL is the true/false expression and then the instruction list.
 
 ### p2_case.lg ###
+The file p2_case.lg displays the command CASE which takes two parameters as input. The first parameter is a value and the second is a list of lists (clauses). To read more about how CASE works visit https://people.eecs.berkeley.edu/~bh/v2ch14/manual.html which is a link to a user's manual explain the introcacies of CASE. The file contains the procedure CASETEST that searches for the string "w" in a list of stirngs, if the string is found within the list of strings, then "true" is printed, if it cannot, then "false" is printed.
 
 ### p2_cond.lg ###
+The file p2_cond.lg displays the command COND which takes a list of lists (clauses) as input. To read more about how clauses work vist https://people.eecs.berkeley.edu/~bh/v2ch14/manual.html. The file contains the procedure CONDTEST which runs the COND command on a list of lists and outputs the string "Condition's_Output".
