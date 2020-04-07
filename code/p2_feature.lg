@@ -1,0 +1,8 @@
+TO P2FEATURE
+print "FIB_from_0_to_514229
+print "0
+MAKE "var1 0
+MAKE "var2 1
+MAKE "fibsum 0
+DO.UNTIL [MAKE "fibsum sum var1 var2 MAKE "var1 var2 MAKE "var2 fibsum print fibsum ] [fibsum>317811]
+end
