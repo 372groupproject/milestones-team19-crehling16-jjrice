@@ -60,21 +60,22 @@ The file p2_throw.lg holds the procedure THROWERROR which display the THROW comm
 The file p2_error.lg displays the command ERROR which outs a list describing the error that was caught, if no error is caught, the ERROR command will output an empty list. The file holds the procedure 2ERROR that contains a SUM command that does not do anything after the command is run. After the SUM command, the ERROR command is run and outputs a list of the command that just casued the error, in this case the SUM command. 
 
 ### p2_pause.lg ###
-
-
-### p2_countine.lg ###
+The file p2_pause displays the command PAUSE which pauses what is currently running and enters an interactive pause. The user is prompter for instructions, as a toplevel, but with a prompt that inclides the name of the procedure in which PAUSE was invoked. Local variables of that procedure are avaliable during the pause. The file contains the procedure PAUSEPRINTX that holds a local variable x that is set to the value 5. The procedure pauses after declaring the local variable, prompting for user interaction. Try typing print :x which will output the value of x. To end the pause type continue. The command CONTINUE is also a control flow command. CONTINUE ends the current interactive pause.
 
 ### p2_wait.lg ###
+The file p2_wait.lg displays the command WAIT which takes an integer variable time and delays further execution for a 60th of a second of the variable time. The file holds the procedure PRINTWAIT that prints the strings "Hip", "Hip", and "Horray" with a ten second pause in between each print.
 
 ### p2_bye.lg ###
+The file p2_bye.lg displays the command BYE whcih exits from the LOGO console and returns to the operating system. The file holds the procedure ENDCONSOLE that when run closes the console in which the procedure was run.
 
 ### p2_maybeoutput.lg ###
+The file p2_maybeoutput.lg displays the command .MAYBEOUTPUT which works like OUTPUT except that the expression that provides the input value might not, output a value in which case the effect is like STOP (This is an alternative to RUNRESULT). The file holds the procedure RESULTMBO which uses the command .MAYBEOUTPUT to output the string "Hi_from_MAYBEOUTPUT" from a print command.
 
-### p2_goto.lg ###
-
-### p2_tag.lg ###
+### p2_goto_tag.lg ###
+The file p2_goto_tag.lg displays the commands GOTO and TAG. The TAG command does nothing, the tags are used by the GOTO command. The GOTO command takes a word as a parameter and looks for a TAG command with the same input and continues running the procedure from the location of the TAG. The file holds the procedure GOTOTAG which conatins a GOTO and then two print statments with a TAG in between them. When run the procedure GOTO jumps over the first print and continues running after the TAG printing the string "Do_print_this".
 
 ### p2_ignore.lg ###
+
 
 ### p2_'.lg ###
 
