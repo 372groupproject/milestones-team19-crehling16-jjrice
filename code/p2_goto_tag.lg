@@ -1,0 +1,6 @@
+TO GOTOTAG
+GOTO "JUMPHERE"
+print "Do_not_print_this
+TAG "JUMPHERE" 
+print "Do_print_this
+end

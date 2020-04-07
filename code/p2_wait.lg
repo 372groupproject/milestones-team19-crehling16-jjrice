@@ -1,0 +1,7 @@
+TO PRINTWAIT
+print "Hip
+WAIT 600
+print "Hip
+WAIT 600
+print "Horray
+end
