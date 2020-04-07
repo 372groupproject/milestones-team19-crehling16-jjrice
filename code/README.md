@@ -75,19 +75,18 @@ The file p2_maybeoutput.lg displays the command .MAYBEOUTPUT which works like OU
 The file p2_goto_tag.lg displays the commands GOTO and TAG. The TAG command does nothing, the tags are used by the GOTO command. The GOTO command takes a word as a parameter and looks for a TAG command with the same input and continues running the procedure from the location of the TAG. The file holds the procedure GOTOTAG which conatins a GOTO and then two print statments with a TAG in between them. When run the procedure GOTO jumps over the first print and continues running after the TAG printing the string "Do_print_this".
 
 ### p2_ignore.lg ###
-
+The file p2_ignore.lg displays the command IGNORE which does nothing, it is used when an expression evaluted a side effect and its actual value is unimportant, for example, the output from a SUM command. The file contains the procedure IGNORE2 which conatins an IGNORE surrounded by print statements. The first print statment prints "Ignoring_Sum" and the second prints "After_Sum" and the ignore function calculates the SUM of 2 and 3 but does nothing with summed value.
 
 ### p2_'.lg ###
+The file p2_`.lg displays the command ` which outputs a list equal to its input but with certain substitutions. The file p2_`.lg contains the procedure SHOWLIST which uses the command SHOW to display what the command ` outputs. The commadn ` is given the list [print "foo] and outputs that list.
 
 ### p2_for.lg ###
 
 ### p2_dowhile.lg ###
-
-### p2_while.lg ###
+The file p2_dowhile.lg displays the command DO.WHILE which takes an instruction list and true/false expression as inputs. The command DO.WHILE repeatedly evalutes the inputs in the instruction list until the true/false expression evaluates to false. The file contains the procedure DOWHILE which increments a variable summed by 1 each time until the variable is a value greater than 10. The variables value is printed out to display that the DO.WHILE command ran and then stop after meeting its end condtion. The contorl flow command WHILE does the same thing except the first input into command WHILE is the true/false expression and then the instruction list.
 
 ### p2_dountil.lg ###
-
-### p2_until.lg ###
+The file p2_dountil displays the command DO.UNTIL which takes an instruction list and true/false expression as inputs. The command DO.UNTIl repeatedly evalutes the inputs in the instruction list until the true/false expression evaluates to True. The file contains the procedure DOUNTIL which increments a variable summed by 1 each time while the variable is a value less than 10. The variables value is printed out to display that the DO.UNTIL command ran and then stop after meeting its end condtion. The contorl flow command UNTIL does the same thing except the first input into command UNTIL is the true/false expression and then the instruction list.
 
 ### p2_case.lg ###
 
