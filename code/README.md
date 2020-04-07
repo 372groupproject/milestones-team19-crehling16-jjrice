@@ -94,3 +94,6 @@ The file p2_case.lg displays the command CASE which takes two parameters as inpu
 
 ### p2_cond.lg ###
 The file p2_cond.lg displays the command COND which takes a list of lists (clauses) as input. To read more about how clauses work vist https://people.eecs.berkeley.edu/~bh/v2ch14/manual.html. The file contains the procedure CONDTEST which runs the COND command on a list of lists and outputs the string "Condition's_Output".
+
+## p2_feature ##
+The program uses commands from the control flow snippets to out a fibnacci sequence from 0 to 511229.
