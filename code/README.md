@@ -102,9 +102,11 @@ The program uses commands from the control flow snippets to out a fibnacci seque
 
 ### p3_word.txt ###
 
-Demonstrates declaring words with MAKE, and merging them with WORD.
+This file demonstrates declaring words with MAKE, and merging them with WORD.
 
 ### p3_list.txt ###
+
+Demonstrates creating a list from hard-coded input, accessing the first/last indices of that list, accessing the tail of the list (for list processing purposes!), and converting lists to arrays.
 
 ### p3_array.txt ###
 
