@@ -102,6 +102,8 @@ The program uses commands from the control flow snippets to out a fibnacci seque
 
 ### p3_word.txt ###
 
+Demonstrates declaring words with MAKE, and merging them with WORD.
+
 ### p3_list.txt ###
 
 ### p3_array.txt ###
