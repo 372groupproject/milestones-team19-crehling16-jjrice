@@ -1,3 +1,1 @@
-* Our program will demostrate the turtle commands, the unique drawing tool commands of LOGO, using the different contorl flow commands and data types we have learned so far.
-
-* Our project will use user defined procedures to create a recursive drawing procedure.
+* Our program will demostrate the turtle commands, the unique drawing tool commands of LOGO, using the different contorl flow commands and data types we have learned so far. The project will use user defined procedures to create a recursive drawing procedure. We expect the program to contain a main procedure to perform the overall drawing, as well as other modules to create the elements of the drawing. We expect this program to contain at least 100 lines of code, with that figure potentially growing if we feel it necessary to expand the project's scope. We believe that this program will be an excellent demonstration of Logo, as the turtle-graphics feature is one of the defining aspects of the language.
