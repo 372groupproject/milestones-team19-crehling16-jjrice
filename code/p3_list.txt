@@ -1,0 +1,6 @@
+make "examplelist (LIST 1 2 3)
+print first :examplelist
+print last :examplelist
+print butfirst :examplelist
+print :examplelist
+print (ITEM 1 (LISTTOARRAY :examplelist))
