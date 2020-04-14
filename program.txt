@@ -1,1 +1,3 @@
-Our program will demostrate the turtle commands using the different contorl flow commands and data types we have learned so far.
+* Our program will demostrate the turtle commands, the unique drawing tool commands of LOGO, using the different contorl flow commands and data types we have learned so far.
+
+* Our project will use user defined procedures to create a recursive drawing procedure.
