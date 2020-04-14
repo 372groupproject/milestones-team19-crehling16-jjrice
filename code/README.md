@@ -97,3 +97,17 @@ The file p2_cond.lg displays the command COND which takes a list of lists (claus
 
 ## p2_feature ##
 The program uses commands from the control flow snippets to out a fibnacci sequence from 0 to 511229.
+
+# MILESTONE 3 #
+
+### p3_word.txt ###
+
+### p3_list.txt ###
+
+### p3_array.txt ###
+
+Demonstrates the features of arrays such as ARRAY, ITEM and SETITEM.
+
+### p3_fail.txt ###
+
+
