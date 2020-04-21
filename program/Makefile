@@ -1,4 +1,4 @@
-draw: triangle.o square.o rectangel.o s.o mirroredRhombus.o
+draw: triangle.o square.o rectangel.o s.o mirroredRhombus.o diamond.o lotus.o
 
 triangle.o : triangle.lg
             cc -c triangle.lg
@@ -14,3 +14,9 @@ s.o : s.lg
           
 mirroredRhombus.o : mirroredRhombus.lg
           cc -c mirroredRhombus.lg
+
+diamond.o : diamond.lg
+          cc -c diamond.lg
+
+lotus.o : lotus.lg
+          cc -c lotus.lg
