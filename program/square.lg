@@ -1,0 +1,23 @@
+; Author: Joseph Rice
+; File: square.lg
+
+; File description: The file contains the procedure SQUARE :length that when invoked
+; creataes a square with sides of length :length. 
+
+; The procedure below tells the turtle to draw a square with sides of length :length.
+TO SQUARE :length
+
+RIGHT 90
+FORWARD :length
+LEFT 90
+FORWARD :length
+LEFT 90
+FORWARD :length
+LEFT 90
+FORWARD :length
+LEFT 90
+
+; The command HOME moves the turle back to where it started.
+HOME
+
+end
