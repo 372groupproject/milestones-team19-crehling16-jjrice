@@ -123,3 +123,6 @@ The file p4_procedure.lg demonstrates Logo procedures. The file contains the pro
 
 ### p4_parametes.lg ###
 The file p4_parameters.lg demonstrates Logo's procedure parameter passing. The file contains the procedure EXAMPLE2 takes two integers as input. The procedure prints the value of the passed parameters and prints the product of the two integers. This shows that the procedure can both accept and use passed in values. 
+
+### p4_load.lg ###
+The file p4_load.lg demonstrates Logo's ability to import files containing procedures that can be use in the file that it was loaded. The file imports the two file mentioned above and calls the procedure within each file. 
