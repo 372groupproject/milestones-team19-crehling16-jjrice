@@ -1,0 +1,4 @@
+For our video, we plan on focusing on Logo's defining feature, turtle graphics. Since so much of Logo's functionality is fairly standard to other programming languages, we thought that we would shed a light on
+what separates it from the others. We'll be presenting to the viewer that just because Logo seems simplistic doesn't mean our programs have to be. We'll be demoing the language mainly by walking viewers through the building blocks of our demo 
+program. We plan to show off how to make some simple shapes, then build the complexity of the program with some of Logo's non-drawing features (loops, recursion, randomization, etc.) until we have our finished program.
+We'll be accomplishing this by screen-recording our interpreter workspace as we explain and run the demo, with narration as well as some cutaways to informational slides about the language.
