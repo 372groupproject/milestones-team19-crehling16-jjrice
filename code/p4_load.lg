@@ -1,0 +1,16 @@
+LOAD "p4_procedure.lg
+LOAD "p4_parameters.lg
+
+TO EXAMPLE3
+(PRINT "This "procedure "demonstrates "that "Logo "procedures "are "able "to "load "procedures "from "other "files "and "use "procedures "from "those "files)
+print "
+
+(PRINT "Calling "procedure "EXAMPLE1)
+EXAMPLE1
+print "
+
+(PRINT "Calling "procedure "EXAMPLE2)
+EXAMPLE2 56 25
+print "
+
+end
