@@ -1,0 +1,26 @@
+; Author: Joseph Rice
+; File: mirroredRhombus.lg
+
+; File description: The file contains the procedure BACKWARDS :size that when 
+; invoked creates two rhombus with two sides the size of :size, drawn mirrored to each other.
+
+; The procedure below tells the turtle to draw an S of size :size.
+TO BACKWARDS :size
+
+LEFT 90
+FORWARD :size
+RIGHT 90
+FORWARD :size
+RIGHT 90
+FORWARD :size
+LEFT 90
+FORWARD :size
+LEFT 90
+FORWARD :size 
+
+home
+
+end
+
+
+

@@ -1,0 +1,24 @@
+; Author: Joseph Rice
+; File: s.lg
+
+; File description: The file contains the procedure S :size that when 
+; invoked creates an s with size :size.
+
+; The procedure below tells the turtle to draw an S of size :size.
+TO S :size
+
+RIGHT 90
+FORWARD :size
+LEFT 90
+FORWARD :size
+LEFT 90
+FORWARD :size
+RIGHT 90
+FORWARD :size
+RIGHT 90
+FORWARD :size 
+
+end
+
+
+
