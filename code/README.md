@@ -131,7 +131,7 @@ The file p4_constructors.lg contians fours code snippets displaying the four lib
   * Outputs a list whose members are the members of the input list, in reverse order (UCBLogo manual).
 
 * GENYM
-  * outputs a unique word each time it's invoked.  The words are of the form G1, G2, etc (UCBLogo manual.
+  * Outputs a unique word each time it's invoked.  The words are of the form G1, G2, etc (UCBLogo manual).
 
 ### SELECTORS ###
 
