@@ -2,7 +2,7 @@
 ; File: rectangle.lg
 
 ; File description: The file contains the procedure RECTANGLE :width :height that when 
-; invoked creataes a rectangl with width :width and height :height. 
+; invoked creataes a rectangle with width :width and height :height. 
 
 ; The procedure below tells the turtle to draw a rectangle with sides of :width and
 ; :height.
