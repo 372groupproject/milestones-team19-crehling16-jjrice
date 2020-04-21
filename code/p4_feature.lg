@@ -1,0 +1,9 @@
+TO FIBBETWEEN :first :second
+
+MAKE "x 0
+MAKE "y 1
+MAKE "fibsum 0
+
+DO.WHILE [MAKE "fibsum sum x y MAKE "x y MAKE "y fibsum IF (AND (fibsum >= :first) (fibsum <= :second)) [print fibsum] ] [fibsum < :second]
+
+end
