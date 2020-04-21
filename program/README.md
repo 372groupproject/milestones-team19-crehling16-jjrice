@@ -1,7 +1,7 @@
 # The Program #
 
 # Predefined Procedrues #
-The files list below will be imported and used in the main program file. Each file contains a procedure that contains a set of instructions that will produce a turtle graphic. "Tutrle graphics are vector graphics that are produced by using a cursor (the "turtle") on a Cartesian plain" (WIKi). The turtle is a little icon on the screen that moves as the user inputs commands. The main file will randomly call thes= inported procedures and produce a randomly drawn turtle graphic.
+The files list below will be imported and used in the main program file. Each file contains a procedure that contains a set of instructions that will produce a turtle graphic. "Tutrle graphics are vector graphics that are produced by using a cursor (the "turtle") on a Cartesian plain" (WIKI). The turtle is a little icon on the screen that moves as the user inputs commands. The main file will randomly call thes= inported procedures and produce a randomly drawn turtle graphic.
 
 ### triangle.lg ###
 The file contains the procedure TRIANGLE :distance that when invoked creates a (45, 45, 90) triangle with sides of length :distance.
