@@ -1,0 +1,8 @@
+TO EXAMPLE2 :num :scale
+(PRINT "This "procedure "demonstrates "that "Logo "procedures "can "take "parameters "as "input "and "can "use "the "passed "in "paramters)
+print "
+(PRINT "The "value "of "the "first "parameter :num)
+(PRINT "The "value "of "the "second "parameter :scale)
+print "
+(PRINT "The "value "of "the "first "parameter "scaled "by "the "second "parameter (PRODUCT :num :scale))
+end

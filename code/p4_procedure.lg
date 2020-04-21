@@ -1,0 +1,5 @@
+TO EXAMPLE1
+(PRINT "This "is "an "example "of "a "procedure "in "Logo)
+(PRINT "The "procedure "prints "a "string "4 "times "then "exits)
+REPEAT 4 [(PRINT "This "is "example "1)]
+end
