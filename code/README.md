@@ -134,7 +134,7 @@ The file p4_constructors.lg contians fours code snippets displaying the four lib
   * Outputs a unique word each time it's invoked.  The words are of the form G1, G2, etc (UCBLogo manual).
 
 ### SELECTORS ###
-The file p4_selectors.lg contains five code snippets displaying the five selector library functions: MDITEM, PICK, REMOVE, REMDUP, and QUOTED.
+The file p4_selectors.lg contains five code snippets displaying the five selector library functions: MDITEM, PICK, REMOVE, REMDUP, and QUOTED. The output of the file is seperated into five sections, seperating each code snippet into its own secetion.
 
 * MDITEM [int1 int2] array
   * Outputs an element of an multi-dimensional list. The element output is specified by the two integers from the list in the first parameter of MDITEM. The first integer, int1, specifies which array in the array-of-arrays to select the element and the secodn integer, int2, specifies which element from the selected array to output. The second parameter intp MDITEM, array, is the multi-dimensional list.
