@@ -1,7 +1,7 @@
 ; Author: Joseph Rice
 ; File: lotus.lg
 
-; File Description: The fiel contains the procedure LOTUS :size that when invoked
+; File Description: The file contains the procedure LOTUS :size that when invoked
 ; creates a 8 diamonds with sides of length :size.
 
 ; Imports the file diamond.lg
