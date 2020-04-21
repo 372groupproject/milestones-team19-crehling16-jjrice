@@ -134,6 +134,22 @@ The file p4_constructors.lg contians fours code snippets displaying the four lib
   * Outputs a unique word each time it's invoked.  The words are of the form G1, G2, etc (UCBLogo manual).
 
 ### SELECTORS ###
+The file p4_selectors.lg contains five code snippets displaying the five selector library functions: MDITEM, PICK, REMOVE, REMDUP, and QUOTED.
+
+* MDITEM [int1 int2] array
+  * Outputs an element of an multi-dimensional list. The element output is specified by the two integers from the list in the first parameter of MDITEM. The first integer, int1, specifies which array in the array-of-arrays to select the element and the secodn integer, int2, specifies which element from the selected array to output. The second parameter intp MDITEM, array, is the multi-dimensional list.
+
+* PICK list
+  * Outputs a randomly choden member of the input list (UCBLogo manual).
+  
+* REMOVE thing list
+  * Outputs a copy of "list" with every meber equal to "thing" removed (UCBLogo manual).
+
+* REMDUP list
+  * Outputs a copy of "list" with duplicate members removed.  If two or more members of the input are equal, the rightmost of those members is the one that remains in the output (UCBLogo manual).
+
+* QUOTED thing
+  * Outputs its input, if a list; outputs its input with a quotation mark prepended, if a word (UCBLogo manual).
 
 ### MUTATORS ###
 
