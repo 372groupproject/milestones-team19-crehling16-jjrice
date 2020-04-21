@@ -11,3 +11,9 @@ The file contains the procedure SQUARE :length that when invoked creataes a squa
 
 ### rectangle.lg ###
 The file contains the procedure RECTANGLE :width :height that when invoked creataes a rectangl with width :width and height :height.
+
+### s.lg ###
+The file contains the procedure S :size that when invoked creates an s with size :size.
+
+### mirroredRhombus.lg ###
+The file contains the procedure BACKWARDS :size that when invoked creates two rhombus with two sides the size of :size, drawn mirrored to each other.
