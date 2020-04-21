@@ -1,0 +1,17 @@
+; Author: Joseph Rice
+; File: lotus.lg
+
+; File Description: The fiel contains the procedure LOTUS :size that when invoked
+; creates a 8 diamonds with sides of length :size.
+
+; Imports the file diamond.lg
+LOAD "diamond.lg
+
+; The procedure below creates a lotus uses the procedure DIAMOND :size.
+TO LOTUS :size
+
+; Iterates 8 times and calls the procedure to draw a dimand with
+; sides of size :size.
+REPEAT 8 [DIAMOND :size]
+
+end

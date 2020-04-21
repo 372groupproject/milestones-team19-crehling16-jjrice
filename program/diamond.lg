@@ -1,0 +1,20 @@
+; Author: Joseph Rice
+; File: diamond.lg
+
+; File Description: The file contains the procedure DIAMOND :distance that when invoked
+; creates a DIAMOND with sides of length :distance.
+
+; The procedure below makes the turtle draw a diamond with sides of size :distance.
+TO DIAMOND :distance
+
+LEFT 90
+LEFT 45
+FORWARD :distance
+LEFT 90
+FORWARD :distance
+LEFT 90
+FORWARD :distance
+LEFT 90
+FORWARD :distance
+
+end
