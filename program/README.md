@@ -17,3 +17,9 @@ The file contains the procedure S :size that when invoked creates an s with size
 
 ### mirroredRhombus.lg ###
 The file contains the procedure BACKWARDS :size that when invoked creates two rhombus with two sides the size of :size, drawn mirrored to each other.
+
+### diamond.lg ###
+The file contains the procedure DIAMOND :distance that when invoked creates a DIAMOND with sides of length :distance.
+
+### lotus.lg ###
+The file contains the procedure LOTUS :size that when invoked creates a 8 diamonds with sides of length :size.
