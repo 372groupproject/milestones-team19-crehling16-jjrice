@@ -1,0 +1,77 @@
+; Author: Joseph Rice
+; File: main.lg
+
+; File Description: The file contains the code that produces the random drawings.
+; The file import the predefined shapes and random picks which ones to draw.
+
+; Importing predefined shapes
+LOAD "diamond.lg
+LOAD "lotus.lg
+LOAD "mirroredRhombus.lg
+LOAD "rectangle.lg
+LOAD "s.lg
+LOAD "square.lg
+LOAD "triangle.lg
+
+TO MAIN
+
+; Tells the turtle to enter wrap mode, which causes the turn to
+; wrap around the screen if it is asked to move to a position off
+; screen.
+WRAP
+
+;
+CLEARSCREEN
+
+; Randomly selects a number between 0 and 8 where each number will can a different
+; procedure. The list of procedures each number calls is shown below.
+; 0 : DIAMOND
+; 1 : LOTUS
+; 2 : BACKWARDS
+; 3 : RECTANGLE
+; 4 : S
+; 5 : SQUARE
+; 6 : TRIANGLE
+; 7 - 10 : Moves the position of the turtle
+MAKE "randShape RANDOM 11
+
+; The turtle will draw a random amount of shapes from 1 to 1000 possible drawings .
+MAKE "randDrawings RANDOM 1001
+
+; The variable i holds the current iteration in the while loop.
+MAKE "i 0
+
+DO.WHILE [ 
+
+; If randShape is 0, then the procedure DIAMOND is called and passed a random number
+; between 0 and 250
+IF [EQUALP randShape 0 ] [DIAMOND (RANDOM 251)]
+
+;
+IF [EQUALP randShape 1] [LOTUS (RANDOM 251)]
+
+;
+IF [EQUALP randShape 2] [BACKWARDS (RANDOM 251)]
+
+;
+IF [EQUALP randShape 3] [RECTANGLE (RANDOM 251) (RANDOM 251)]
+
+;
+IF [EQUALP randShape 4] [S (RANDOM 251)]
+
+;
+IF [EQUALP randShape 5] [SQUARE (RANDOM 251)]
+
+;
+IF [EQUALP randShape 6] [TRIANGLE (RANDOM 251)]
+
+;
+IF [GREATEREQUALP randShape 7] [MAKE "x (RANDOM 1500) MAKE "y (RANDOM 1500) MAKE "sign (RANDOM 2) IFELSE [EQUALP sign 0] [] []]
+
+
+MAKE "randShape RANDOM 8 
+MAKE "i i+1
+
+] [i < randDrawings]
+
+END
