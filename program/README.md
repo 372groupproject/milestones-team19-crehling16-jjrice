@@ -23,3 +23,5 @@ The file contains the procedure DIAMOND :distance that when invoked creates a DI
 
 ### lotus.lg ###
 The file contains the procedure LOTUS :size that when invoked creates a 8 diamonds with sides of length :size.
+
+### main.lg ###
