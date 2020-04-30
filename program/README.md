@@ -1,7 +1,7 @@
 # The Program #
 
 # How to run the program #
-Go to https://people.eecs.berkeley.edu/~bh/logo.html to download the UCBlogo command window. After downloading UCBLogo, a shortcut will be added to your desktop. Click on the shortcut and once the command window is open click on "File" -> "Load Logo Session", this will open your file explorer. Navigate to the fold that contains the file main.lg along with the other files listed below and double clidk on main.lg, this will load the contents of the file into command window. Once loaded type MAIN into the window and the program will run.
+Go to https://people.eecs.berkeley.edu/~bh/logo.html to download the UCBlogo command window. After downloading UCBLogo, a shortcut will be added to your desktop. Click on the shortcut and once the command window is open click on "File" -> "Load Logo Session", this will open your file explorer. Navigate to the folder that contains the file main.lg along with the other files listed below and double clidk on main.lg, this will load the contents of the file into command window. Once loaded type MAIN into the window and the program will run.
 
 # Predefined Procedrues #
 The files list below will be imported and used in the main program file. Each file contains a procedure that contains a set of instructions that will produce a turtle graphic. "Tutrle graphics are vector graphics that are produced by using a cursor (the "turtle") on a Cartesian plain" (WIKI). The turtle is a little icon on the screen that moves as the user inputs commands. The main file will randomly call thes= inported procedures and produce a randomly drawn turtle graphic.
