@@ -1,15 +1,15 @@
 ; Author: Joseph Rice
 ; File: p5_turtleGraphics.lg
 
-; File Description:
+; File Description: The procedure HELLOWORLD uses Logo's turtle graphics
+; to draw "HELLO WORLD".
 
 TO HELLOWORLD
 
+; Clears the screen of previous drawings
 CLEARSCREEN
 
-WRAP
-
-; Draws an HELLO WORLD
+; Draws HELLO WORLD
 FORWARD 200
 LEFT 180
 FORWARD 100
