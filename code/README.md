@@ -129,3 +129,8 @@ The file p4_load.lg demonstrates Logo's ability to import files containing proce
 
 ### p4_feature.lg ###
 The file p4_feature.lg uses Logo's ability of procedures to be able to accept parameters to create a procedure that prints the fibonacci sequence between two numbers. The file contains the procedure FIBBETWEEN that accepts two integers as input. The procedure outputs the procedure between the first parameter and the second parameter.
+
+# MILESTONE 5 #
+
+### p5_turtleGraphics.lg ###
+The file p5_turtleGraphics.lg demonstrates Logo's turtle graphics. The file contains the procedure HELLOWORLD that draws "HELLO WORLD" using the turtle graphics. An example of the output is shown below.
