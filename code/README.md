@@ -134,3 +134,5 @@ The file p4_feature.lg uses Logo's ability of procedures to be able to accept pa
 
 ### p5_turtleGraphics.lg ###
 The file p5_turtleGraphics.lg demonstrates Logo's turtle graphics. The file contains the procedure HELLOWORLD that draws "HELLO WORLD" using the turtle graphics. An example of the output is shown below.
+
+![p5_turtleGraphics.lg Output](helloWorld.png)
